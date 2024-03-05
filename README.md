@@ -65,9 +65,9 @@ This proving scheme could also add the option of including any number of previou
 
 ## Tipping Conventions
 
-For the sake of operational security, users should generally refrain from committing their own note updates. Instead they can designate one of their OutputNotes as TipNote to a specific "Note Aggregator", who would be the one actually responsible for committing the note to the chain.
+For the sake of operational security, users should generally refrain from committing their own note updates. Instead they can designate one of their OutputNotes as a "TipNote" to a specific "Note Aggregator", who would then be the one actually responsible for committing the note to the chain.
 
-If a user isn't confident that the Aggregator will submit their NoteUpdate in a timely manner, they might generate multiple NoteUpdates with tips to different aggregators which would only be valid for the first aggregator that submits it.
+If a user isn't confident that the Aggregator will submit their NoteUpdate in a timely manner, they might generate multiple NoteUpdates with tips to different aggregators which would only be valid for the first aggregator that subm!its it.
 
 ## Offline Note Transfers
 
@@ -138,7 +138,7 @@ This is a very early draft. Most of which was typed out on a phone while on an a
 
 Leave issues on GitHub, and send pull requests. Any feedback is greatly appreciated. 
 
-https://github.com/pierce403/zPurse
+[https://github.com/pierce403/zPurse](https://github.com/pierce403/zPurse)
 
 ## Inspiration
 
