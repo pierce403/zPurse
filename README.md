@@ -1,5 +1,5 @@
 ## Overview 
-At a high level, the zPurse protocol enables an account based payment system (Ethereum) to convert assets into a UTXO based accounting system in a smart contract using notes with cloaked owners and amounts, while using zk proofs to verify UTXO transitions.
+At a high level, the zPurse protocol enables an account based payment system (such as Ethereum) to convert assets into a UTXO based accounting system in a smart contract using notes with cloaked owners and amounts, while using zk proofs to verify UTXO transitions.
 
 What this looks like is a smart contract on Ethereum with a mapping from note ID to a hash of note metadata. The metadata for a note simply contains the balance of the note, and the address of who can spend it. The contract then has one public function called updateNotes that takes in a list of old notes, a list of new notes, and a proof that the transition is valid.
 
