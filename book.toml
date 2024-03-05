@@ -1,0 +1,15 @@
+[book]
+authors = ["Dean Pierce"]
+language = "en"
+multilingual = false
+src = "src"
+title = "zPurse"
+
+[output.html.fold]
+enable = true
+
+[output.html]
+single-page = true
+additional-css = ["theme/pagetoc.css"]
+additional-js = ["theme/pagetoc.js"]
+
