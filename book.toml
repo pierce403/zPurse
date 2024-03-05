@@ -3,7 +3,7 @@ authors = ["Dean Pierce"]
 language = "en"
 multilingual = false
 src = "src"
-title = "zPurse"
+title = "zPurse Protocol v0"
 
 [output.html.fold]
 enable = true
