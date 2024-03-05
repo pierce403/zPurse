@@ -45,7 +45,7 @@ In this case, the inputs include the input and output notes, including all of th
 
 First, we need to prove that the designated spender is the one generating the proof. We want to make sure that any zPurse client doesn't actually need the private key, so the signature should come from any normal Web3 wallet, such as Metamask. The data being signed should be a hash of all relevant input and output notes, not including the spender.
 
-Inside the prover, all we're doing is a normal ERC???? signature check, but we also need to make sure that we hash the notes as well to confirm that the signature is commiting to the right set of notes.
+Inside the prover, all we're doing is a normal EIP-712 signature check, but we also need to make sure that we hash the notes as well to confirm that the signature is committing to the right set of notes.
 
 ### Prove the Meta Hashes
 
