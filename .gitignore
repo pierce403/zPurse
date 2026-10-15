@@ -1,1 +1,6 @@
 book
+
+node_modules/
+.wrangler/
+dist/
+.cloudflare-tools/

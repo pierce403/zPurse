@@ -1,0 +1,12 @@
+{
+  "name": "zpurse-hosting",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "build:cloudflare": "node scripts/build-mdbook.mjs && node scripts/cloudflare-assets.mjs",
+    "check:deploy": "npm run build:cloudflare && wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.0"
+  }
+}

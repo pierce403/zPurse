@@ -143,3 +143,10 @@ Leave issues on GitHub, and send pull requests. Any feedback is greatly apprecia
 ## Inspiration
 
 Bitcoin, Zero Cash, Tornado Cash, and especially Aztec's join-split note mechanism. Of course none of this would be practical today without the fine work happening on Ethereum, XMTP, Farcaster, and RiscZero as well.
+
+## Cloudflare publishing
+
+Native Git publishes main from / using npm ci, npm run build:cloudflare
+and npm run deploy. Existing mdBook 0.4.36 generator and Pages recovery remain. Credentials stay
+in Cloudflare; previews stay off. A no-store native revision and artifact manifest
+allow exact public checks. The generator release is checksum-pinned in task-local build tooling.
