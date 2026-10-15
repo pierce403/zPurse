@@ -4,3 +4,6 @@ node_modules/
 .wrangler/
 dist/
 .cloudflare-tools/
+
+# mdBook 0.4.36 generates this root alias alongside dist/index.html.
+/index.html
